@@ -21,16 +21,14 @@ Note: Please triple-check the panels are exactly as you want them to be. It can 
 
 * Enough acrylic sheets to cut out the required shapes. I used 3mm acrylic in white and semi-opaque black. Check out the left-over scraps box in your local plastics supply store.
 * An LCD screen with HDMI input, preferably with a 4:3 display ratio, [such as this one from Amazon](https://www.amazon.com/gp/product/B01FHDL1DE).
-* A nice clicky keyboard, such as [this one from Amazon](https://www.amazon.com/gp/product/B071W16NVZ). The keys lights up, but they can be turned off for a period feel.
-* A Raspberry Pi. You can take the simple route and use a Pi Zero with the [PigFX](https://github.com/fbergama/pigfx) terminal emulator and a [Serial Hat](https://thepihut.com/products/serial-pizero?variant=26469111240), or you can go more advanced way by using a Pi 3 running [Cool-Retro-Term](https://github.com/Swordfish90/cool-retro-term) and a [USB-Serial adaptor](https://thepihut.com/products/adafruit-usb-serial-converter-ft232rl). Or some combination.
+* A nice clicky keyboard, such as [this one from Amazon](https://www.amazon.com/gp/product/B071W16NVZ). The keys light up, but they can be turned off for a period feel.
+* A Raspberry Pi. You can take the simple route and use a Pi Zero with the [PigFX](https://github.com/fbergama/pigfx) terminal emulator and a [Serial Hat](https://thepihut.com/products/serial-pizero?variant=26469111240), or you can go a more advanced way by using a Pi 3 running [Cool-Retro-Term](https://github.com/Swordfish90/cool-retro-term) and a [USB-Serial adaptor](https://thepihut.com/products/adafruit-usb-serial-converter-ft232rl). Or some combination.
 
 A set of cutting guides is included in this repo, but you **must** make sure they match the keyboard and screen you are going to use. The guides are in Visio format, as this is the format the cutter I used - a Helix - likes best. 
 
 If you have a 3D modeling program, use the 3D model data in this repo to get a good idea of how the pieces will fit together (feel free to improve upon them!)
 
-Note: I assembled my acrylic using acrylic cement, leaving the screen panel and lid unattached. They remain in place fine with friction, allowing me to work in the enclosure as required. You might want to avoid the cement, and use either hot glue (in which case you can use small pieces of wood to provide the 90' angles) or re-design to use  nuts and bolts.
-
-![](Terminal.dae)
+Note: I assembled my acrylic using acrylic cement, leaving the screen panel and lid unattached. They remain in place fine with friction, allowing me to work in the enclosure as required. You might want to avoid the cement, and use either hot glue (in which case you can use small pieces of wood to provide the 90' angles) or re-design to use [nuts and bolts](https://www.instructables.com/id/How-to-Make-Anything-Using-Acrylic-and-Machine-Sc/).
 
 ![](render03.png)
 
