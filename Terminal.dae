@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <author>Unknown</author>
+            <authoring_tool>Cheetah3D</authoring_tool>
+            <comments>http://www.cheetah3d.com</comments>
+            <copyright>Unknown</copyright>
+        </contributor>
+        <created>2019-06-06T14:16:37Z</created>
+        <modified>2019-06-06T14:16:37Z</modified>
+        <unit meter="1.0" name="meter"/>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_cameras>
+        <camera id="ID914419008-persp">
+            <optics>
+                <technique_common>
+                    <perspective>
+                        <yfov>40.000000</yfov>
+                        <aspect_ratio>0.6</aspect_ratio>
+                        <znear>0.010000</znear>
+                        <zfar>1000.000000</zfar>
+                    </perspective>
+                </technique_common>
+            </optics>
+        </camera>
+    </library_cameras>
+    <library_materials>
+        <material id="material0" name="Black_Acrlyic">
+            <instance_effect url="#material0-fx"/>
+        </material>
+        <material id="material1" name="Material">
+            <instance_effect url="#material1-fx"/>
+        </material>
+        <material id="material2" name="Material.2">
+            <instance_effect url="#material2-fx"/>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="material0-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <emission>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </emission>
+                        <ambient>
+                            <color>0.250895 0.250942 0.250883 1.000000</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.250895 0.250942 0.250883 1.000000</color>
+                        </diffuse>
+                        <specular>
+                            <color>1.000000 1.000000 1.000000 1.000000</color>
+                        </specular>
+                        <shininess>
+                            <float>85.000000</float>
+                        </shininess>
+                        <reflective>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>1</float>
+                        </reflectivity>
+                        <transparent>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </transparent>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="material1-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <emission>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </emission>
+                        <ambient>
+                            <color>0.910254 0.910425 0.910212 1.000000</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.910254 0.910425 0.910212 1.000000</color>
+                        </diffuse>
+                        <specular>
+                            <color>1.000000 1.000000 1.000000 1.000000</color>
+                        </specular>
+                        <shininess>
+                            <float>10.000000</float>
+                        </shininess>
+                        <reflective>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>1</float>
+                        </reflectivity>
+                        <transparent>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </transparent>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="material2-fx">
+            <profile_COMMON>
+                <technique sid="common">
+                    <phong>
+                        <emission>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </emission>
+                        <ambient>
+                            <color>0.000000 0.654521 0.711127 1.000000</color>
+                        </ambient>
+                        <diffuse>
+                            <color>0.000000 0.654521 0.711127 1.000000</color>
+                        </diffuse>
+                        <specular>
+                            <color>1.000000 1.000000 1.000000 1.000000</color>
+                        </specular>
+                        <shininess>
+                            <float>80.000000</float>
+                        </shininess>
+                        <reflective>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </reflective>
+                        <reflectivity>
+                            <float>1</float>
+                        </reflectivity>
+                        <transparent>
+                            <color>0.000000 0.000000 0.000000 1.000000</color>
+                        </transparent>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="ID23485616-mesh" name="ID23485616">
+            <mesh>
+                <source id="ID23485616-mesh-verts" name="verts">
+                    <float_array id="ID23485616-mesh-verts-array" count="24">-6.250000 -15.750000 0.150000 -6.250000 15.750000 0.150000 6.250000 15.750000 0.150000 6.250000 -15.750000 0.150000 6.250000 -15.750000 -0.150000 6.250000 15.750000 -0.150000 -6.250000 15.750000 -0.150000 -6.250000 -15.750000 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID23485616-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23485616-mesh-normal" name="normal">
+                    <float_array id="ID23485616-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23485616-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23485616-mesh-uv1" name="uv1">
+                    <float_array id="ID23485616-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23485616-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23485616-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23485616-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID23485616-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23485616-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23485616-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID23486400-mesh" name="ID23486400">
+            <mesh>
+                <source id="ID23486400-mesh-verts" name="verts">
+                    <float_array id="ID23486400-mesh-verts-array" count="24">-15.750000 -11.500000 0.150000 -15.750000 11.500000 0.150000 15.750000 11.500000 0.150000 15.750000 -11.500000 0.150000 15.750000 -11.500000 -0.150000 15.750000 11.500000 -0.150000 -15.750000 11.500000 -0.150000 -15.750000 -11.500000 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID23486400-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23486400-mesh-normal" name="normal">
+                    <float_array id="ID23486400-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23486400-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23486400-mesh-uv1" name="uv1">
+                    <float_array id="ID23486400-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23486400-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23486400-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23486400-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID23486400-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23486400-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23486400-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID23528944-mesh" name="ID23528944">
+            <mesh>
+                <source id="ID23528944-mesh-verts" name="verts">
+                    <float_array id="ID23528944-mesh-verts-array" count="24">-15.750000 -1.000000 0.150000 -15.750000 1.000000 0.150000 15.750000 1.000000 0.150000 15.750000 -1.000000 0.150000 15.750000 -1.000000 -0.150000 15.750000 1.000000 -0.150000 -15.750000 1.000000 -0.150000 -15.750000 -1.000000 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID23528944-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23528944-mesh-normal" name="normal">
+                    <float_array id="ID23528944-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23528944-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23528944-mesh-uv1" name="uv1">
+                    <float_array id="ID23528944-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23528944-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23528944-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23528944-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat1">
+                    <input offset="0" semantic="VERTEX" source="#ID23528944-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23528944-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23528944-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID23972320-mesh" name="ID23972320">
+            <mesh>
+                <source id="ID23972320-mesh-verts" name="verts">
+                    <float_array id="ID23972320-mesh-verts-array" count="24">-15.750000 -1.000000 0.150000 -15.750000 1.000000 0.150000 15.750000 1.000000 0.150000 15.750000 -1.000000 0.150000 15.750000 -1.000000 -0.150000 15.750000 1.000000 -0.150000 -15.750000 1.000000 -0.150000 -15.750000 -1.000000 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID23972320-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23972320-mesh-normal" name="normal">
+                    <float_array id="ID23972320-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23972320-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23972320-mesh-uv1" name="uv1">
+                    <float_array id="ID23972320-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23972320-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23972320-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23972320-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat1">
+                    <input offset="0" semantic="VERTEX" source="#ID23972320-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23972320-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23972320-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID926458032-mesh" name="ID926458032">
+            <mesh>
+                <source id="ID926458032-mesh-verts" name="verts">
+                    <float_array id="ID926458032-mesh-verts-array" count="24">-15.750000 -1.000000 0.150000 -15.750000 1.000000 0.150000 15.750000 1.000000 0.150000 15.750000 -1.000000 0.150000 15.750000 -1.000000 -0.150000 15.750000 1.000000 -0.150000 -15.750000 1.000000 -0.150000 -15.750000 -1.000000 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID926458032-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID926458032-mesh-normal" name="normal">
+                    <float_array id="ID926458032-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID926458032-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID926458032-mesh-uv1" name="uv1">
+                    <float_array id="ID926458032-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID926458032-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID926458032-mesh-vertices">
+                    <input semantic="POSITION" source="#ID926458032-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat1">
+                    <input offset="0" semantic="VERTEX" source="#ID926458032-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID926458032-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID926458032-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID24754432-mesh" name="ID24754432">
+            <mesh>
+                <source id="ID24754432-mesh-verts" name="verts">
+                    <float_array id="ID24754432-mesh-verts-array" count="24">-15.750000 -1.000000 0.150000 -15.750000 1.000000 0.150000 15.750000 1.000000 0.150000 15.750000 -1.000000 0.150000 15.750000 -1.000000 -0.150000 15.750000 1.000000 -0.150000 -15.750000 1.000000 -0.150000 -15.750000 -1.000000 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID24754432-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID24754432-mesh-normal" name="normal">
+                    <float_array id="ID24754432-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID24754432-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID24754432-mesh-uv1" name="uv1">
+                    <float_array id="ID24754432-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID24754432-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID24754432-mesh-vertices">
+                    <input semantic="POSITION" source="#ID24754432-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat1">
+                    <input offset="0" semantic="VERTEX" source="#ID24754432-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID24754432-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID24754432-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID23487184-mesh" name="ID23487184">
+            <mesh>
+                <source id="ID23487184-mesh-verts" name="verts">
+                    <float_array id="ID23487184-mesh-verts-array" count="24">-16.500000 -16.049999 0.150000 -16.500000 16.049999 0.150000 16.500000 16.049999 0.150000 16.500000 -16.049999 0.150000 16.500000 -16.049999 -0.150000 16.500000 16.049999 -0.150000 -16.500000 16.049999 -0.150000 -16.500000 -16.049999 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID23487184-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23487184-mesh-normal" name="normal">
+                    <float_array id="ID23487184-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23487184-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23487184-mesh-uv1" name="uv1">
+                    <float_array id="ID23487184-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID23487184-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23487184-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23487184-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID23487184-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23487184-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23487184-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID23487968-mesh" name="ID23487968">
+            <mesh>
+                <source id="ID23487968-mesh-verts" name="verts">
+                    <float_array id="ID23487968-mesh-verts-array" count="150">-11.500000 -16.500000 5.000000 -11.500000 16.500000 5.000000 11.500000 16.500000 5.000000 11.450000 4.100000 5.050000 -9.100000 -16.200001 5.000000 -7.549914 0.346605 5.000000 11.500000 7.200000 5.000000 11.500000 10.300000 5.000000 0.000000 11.900001 5.000000 -11.500000 6.000000 5.000000 0.000000 16.500000 5.000000 -10.650001 5.400000 5.000000 -11.500000 -8.250000 5.000000 -5.750000 11.700000 5.000000 -7.800000 8.000000 5.000000 -9.300000 -16.350000 5.000000 -5.750000 13.800000 5.000000 -5.750000 16.500000 5.000000 0.000000 13.900001 5.000000 -11.500000 13.600000 5.000000 5.750000 12.100000 5.000000 11.500000 13.400001 5.000000 5.750000 7.700000 5.000000 5.750000 16.500000 5.000000 3.950000 6.750000 5.000000 -11.500000 -16.500000 4.700000 -11.500000 -8.250000 4.700000 -10.650001 5.400000 4.700000 -9.300000 -16.350000 4.700000 -11.500000 6.000000 4.700000 -5.750000 11.700000 4.700000 0.000000 11.900001 4.700000 -7.800000 8.000000 4.700000 -9.100000 -16.200001 4.700000 -11.500000 16.500000 4.700000 -5.750000 16.500000 4.700000 -5.750000 13.800000 4.700000 -11.500000 13.600000 4.700000 0.000000 16.500000 4.700000 0.000000 13.900001 4.700000 11.500000 16.500000 4.700000 11.500000 13.400001 4.700000 5.750000 12.100000 4.700000 5.750000 16.500000 4.700000 11.500000 10.300000 4.700000 5.750000 7.700000 4.700000 11.451009 4.097195 4.750015 -7.549410 0.345203 4.699999 3.950252 6.749299 4.699998 11.500504 7.198598 4.700000 </float_array>
+                    <technique_common>
+                        <accessor count="50" offset="0" source="#ID23487968-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23487968-mesh-normal" name="normal">
+                    <float_array id="ID23487968-mesh-normal-array" count="576">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 -0.003363 0.009349 0.999951 -0.001682 0.004674 0.999975 -0.000841 0.002337 0.999988 -0.001682 0.004674 0.999975 0.000000 -0.000000 1.000000 0.000000 -0.000000 1.000000 -0.000841 0.002337 0.999988 -0.001682 0.004674 0.999975 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 -0.000841 0.002337 0.999988 0.000000 -0.000000 1.000000 0.000000 0.000000 1.000000 -0.001682 0.004674 0.999975 -0.000841 0.002337 0.999988 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.003363 -0.009347 -0.999951 0.001681 -0.004673 -0.999975 0.000841 -0.002337 -0.999988 0.001681 -0.004674 -0.999975 -0.000000 0.000000 -1.000000 0.001681 -0.004674 -0.999975 0.000841 -0.002337 -0.999988 -0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 0.000841 -0.002337 -0.999988 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000841 -0.002337 -0.999988 0.001681 -0.004673 -0.999975 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.068024 -0.997684 0.000000 0.334010 -0.898843 0.000000 0.334010 -0.898843 0.000000 0.068024 -0.997684 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.334010 -0.898843 0.000000 0.599997 -0.800003 0.000000 0.599997 -0.800003 0.000000 0.334010 -0.898843 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 0.000041 0.000420 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000041 0.000420 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.193741 -0.981025 0.007368 0.193741 -0.981025 0.007368 0.193741 -0.981025 0.007368 0.193741 -0.981025 0.007368 0.999869 -0.016000 0.002634 0.999934 -0.007959 0.001737 0.999934 -0.007959 0.001737 0.999869 -0.016000 0.002634 0.995638 -0.093291 0.001054 0.995638 -0.093291 0.001054 0.995638 -0.093291 0.001054 0.995638 -0.093291 0.001054 0.999934 -0.007959 0.001737 1.000000 0.000041 0.000420 1.000000 0.000041 0.000420 0.999934 -0.007959 0.001737 </float_array>
+                    <technique_common>
+                        <accessor count="192" offset="0" source="#ID23487968-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23487968-mesh-uv1" name="uv1">
+                    <float_array id="ID23487968-mesh-uv1-array" count="384">0.000000 0.000000 0.000000 0.250000 0.250000 0.250000 0.250000 0.000000 0.000000 0.500000 0.250000 0.500000 0.250000 0.250000 0.000000 0.250000 0.500000 0.500000 0.500000 0.250000 0.250000 0.250000 0.250000 0.500000 0.500000 0.000000 0.250000 0.000000 0.250000 0.250000 0.500000 0.250000 0.000000 1.000000 0.250000 1.000000 0.250000 0.750000 0.000000 0.750000 0.500000 1.000000 0.500000 0.750000 0.250000 0.750000 0.250000 1.000000 0.500000 0.500000 0.250000 0.500000 0.250000 0.750000 0.500000 0.750000 0.000000 0.500000 0.000000 0.750000 0.250000 0.750000 0.250000 0.500000 1.000000 1.000000 1.000000 0.750000 0.750000 0.750000 0.750000 1.000000 1.000000 0.500000 0.750000 0.500000 0.750000 0.750000 1.000000 0.750000 0.500000 0.500000 0.500000 0.750000 0.750000 0.750000 0.750000 0.500000 0.500000 1.000000 0.750000 1.000000 0.750000 0.750000 0.500000 0.750000 1.000000 0.000000 0.750000 0.000000 0.750000 0.250000 1.000000 0.250000 0.500000 0.000000 0.500000 0.250000 0.750000 0.250000 0.750000 0.000000 0.500000 0.500000 0.750000 0.500000 0.750000 0.250000 0.500000 0.250000 1.000000 0.500000 1.000000 0.250000 0.750000 0.250000 0.750000 0.500000 0.000000 0.000000 0.250000 0.000000 0.250000 0.250000 0.000000 0.250000 0.000000 0.500000 0.000000 0.250000 0.250000 0.250000 0.250000 0.500000 0.500000 0.500000 0.250000 0.500000 0.250000 0.250000 0.500000 0.250000 0.500000 0.000000 0.500000 0.250000 0.250000 0.250000 0.250000 0.000000 0.000000 1.000000 0.000000 0.750000 0.250000 0.750000 0.250000 1.000000 0.500000 1.000000 0.250000 1.000000 0.250000 0.750000 0.500000 0.750000 0.500000 0.500000 0.500000 0.750000 0.250000 0.750000 0.250000 0.500000 0.000000 0.500000 0.250000 0.500000 0.250000 0.750000 0.000000 0.750000 1.000000 1.000000 0.750000 1.000000 0.750000 0.750000 1.000000 0.750000 1.000000 0.500000 1.000000 0.750000 0.750000 0.750000 0.750000 0.500000 0.500000 0.500000 0.750000 0.500000 0.750000 0.750000 0.500000 0.750000 0.500000 1.000000 0.500000 0.750000 0.750000 0.750000 0.750000 1.000000 1.000000 0.000000 1.000000 0.250000 0.750000 0.250000 0.750000 0.000000 0.500000 0.000000 0.750000 0.000000 0.750000 0.250000 0.500000 0.250000 0.500000 0.500000 0.500000 0.250000 0.750000 0.250000 0.750000 0.500000 1.000000 0.500000 0.750000 0.500000 0.750000 0.250000 1.000000 0.250000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="192" offset="0" source="#ID23487968-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23487968-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23487968-mesh-verts"/>
+                </vertices>
+                <polygons count="48" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID23487968-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23487968-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23487968-mesh-uv1" set="0"/>
+                    <p>15 3 11 2 12 1 0 0 </p>
+                    <p>12 7 11 6 13 5 9 4 </p>
+                    <p>13 11 11 10 14 9 8 8 </p>
+                    <p>14 15 11 14 15 13 4 12 </p>
+                    <p>19 19 16 18 17 17 1 16 </p>
+                    <p>17 23 16 22 18 21 10 20 </p>
+                    <p>18 27 16 26 13 25 8 24 </p>
+                    <p>13 31 16 30 19 29 9 28 </p>
+                    <p>23 35 20 34 21 33 2 32 </p>
+                    <p>21 39 20 38 22 37 7 36 </p>
+                    <p>22 43 20 42 18 41 8 40 </p>
+                    <p>18 47 20 46 23 45 10 44 </p>
+                    <p>6 51 24 50 5 49 3 48 </p>
+                    <p>5 55 24 54 14 53 4 52 </p>
+                    <p>14 59 24 58 22 57 8 56 </p>
+                    <p>22 63 24 62 6 61 7 60 </p>
+                    <p>26 67 27 66 28 65 25 64 </p>
+                    <p>30 71 27 70 26 69 29 68 </p>
+                    <p>32 75 27 74 30 73 31 72 </p>
+                    <p>28 79 27 78 32 77 33 76 </p>
+                    <p>35 83 36 82 37 81 34 80 </p>
+                    <p>39 87 36 86 35 85 38 84 </p>
+                    <p>30 91 36 90 39 89 31 88 </p>
+                    <p>37 95 36 94 30 93 29 92 </p>
+                    <p>41 99 42 98 43 97 40 96 </p>
+                    <p>45 103 42 102 41 101 44 100 </p>
+                    <p>39 107 42 106 45 105 31 104 </p>
+                    <p>43 111 42 110 39 109 38 108 </p>
+                    <p>47 115 48 114 49 113 46 112 </p>
+                    <p>32 119 48 118 47 117 33 116 </p>
+                    <p>45 123 48 122 32 121 31 120 </p>
+                    <p>49 127 48 126 45 125 44 124 </p>
+                    <p>26 131 25 130 0 129 12 128 </p>
+                    <p>25 135 28 134 15 133 0 132 </p>
+                    <p>29 139 26 138 12 137 9 136 </p>
+                    <p>28 143 33 142 4 141 15 140 </p>
+                    <p>35 147 34 146 1 145 17 144 </p>
+                    <p>34 151 37 150 19 149 1 148 </p>
+                    <p>38 155 35 154 17 153 10 152 </p>
+                    <p>37 159 29 158 9 157 19 156 </p>
+                    <p>41 163 40 162 2 161 21 160 </p>
+                    <p>40 167 43 166 23 165 2 164 </p>
+                    <p>44 171 41 170 21 169 7 168 </p>
+                    <p>43 175 38 174 10 173 23 172 </p>
+                    <p>47 179 46 178 3 177 5 176 </p>
+                    <p>46 183 49 182 6 181 3 180 </p>
+                    <p>33 187 47 186 5 185 4 184 </p>
+                    <p>49 191 44 190 7 189 6 188 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID23490288-mesh" name="ID23490288">
+            <mesh>
+                <source id="ID23490288-mesh-verts" name="verts">
+                    <float_array id="ID23490288-mesh-verts-array" count="150">-11.500000 -16.500000 5.000000 -11.500000 16.500000 5.000000 11.500000 16.500000 5.000000 11.450000 4.100000 5.050000 -9.100000 -16.200001 5.000000 -7.550000 0.239476 4.999848 11.500000 7.200000 5.000000 11.500000 10.300000 5.000000 0.000000 11.900001 5.000000 -11.500000 6.000000 5.000000 0.000000 16.500000 5.000000 -10.650001 5.400000 5.000000 -11.500000 -8.250000 5.000000 -5.750000 11.700000 5.000000 -7.800000 8.000000 5.000000 -9.300000 -16.350000 5.000000 -5.750000 13.800000 5.000000 -5.750000 16.500000 5.000000 0.000000 13.900001 5.000000 -11.500000 13.600000 5.000000 5.750000 12.100000 5.000000 11.500000 13.400001 5.000000 5.750000 7.700000 5.000000 5.750000 16.500000 5.000000 3.950000 6.750000 5.000000 -11.500000 -16.500000 4.700000 -11.500000 -8.250000 4.700000 -10.650001 5.400000 4.700000 -9.300000 -16.350000 4.700000 -11.500000 6.000000 4.700000 -5.750000 11.700000 4.700000 0.000000 11.900001 4.700000 -7.800003 8.000001 4.700000 -9.100005 -16.199999 4.700000 -11.500000 16.500000 4.700000 -5.750000 16.500000 4.700000 -5.750000 13.800000 4.700000 -11.500000 13.600000 4.700000 0.000000 16.500000 4.700000 0.000000 13.900001 4.700000 11.500000 16.500000 4.700000 11.500000 13.400001 4.700000 5.750000 12.100000 4.700000 5.750000 16.500000 4.700000 11.500000 10.300000 4.700000 5.750000 7.700000 4.700000 11.451017 4.097220 4.750015 -7.549496 0.238089 4.699848 3.950252 6.749307 4.699998 11.500509 7.198611 4.700000 </float_array>
+                    <technique_common>
+                        <accessor count="50" offset="0" source="#ID23490288-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23490288-mesh-normal" name="normal">
+                    <float_array id="ID23490288-mesh-normal-array" count="576">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000008 -0.000005 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000016 -0.000009 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000008 -0.000005 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 -0.003393 0.009264 0.999951 -0.001680 0.004623 0.999976 -0.000840 0.002311 0.999988 -0.001696 0.004632 0.999976 0.000016 -0.000009 1.000000 0.000008 -0.000005 1.000000 -0.000840 0.002311 0.999988 -0.001680 0.004623 0.999976 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 -0.000840 0.002311 0.999988 0.000008 -0.000005 1.000000 0.000000 0.000000 1.000000 -0.001696 0.004632 0.999976 -0.000840 0.002311 0.999988 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 -0.000000 -1.000000 -0.000008 0.000005 -1.000000 -0.000016 0.000009 -1.000000 -0.000008 0.000005 -1.000000 0.000000 -0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.003393 -0.009263 -0.999951 0.001696 -0.004631 -0.999976 0.000840 -0.002311 -0.999988 0.001680 -0.004622 -0.999976 -0.000016 0.000009 -1.000000 0.001680 -0.004622 -0.999976 0.000840 -0.002311 -0.999988 -0.000008 0.000005 -1.000000 0.000000 0.000000 -1.000000 -0.000008 0.000005 -1.000000 0.000840 -0.002311 -0.999988 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000840 -0.002311 -0.999988 0.001696 -0.004631 -0.999976 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.068024 -0.997684 0.000000 0.334015 -0.898840 -0.000003 0.334015 -0.898840 -0.000003 0.068024 -0.997684 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.334015 -0.898840 -0.000003 0.600005 -0.799996 -0.000006 0.600005 -0.799996 -0.000006 0.334015 -0.898840 -0.000003 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 0.000041 0.000424 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000041 0.000424 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.199056 -0.979961 0.007310 0.199056 -0.979961 0.007310 0.199056 -0.979961 0.007310 0.199056 -0.979961 0.007310 0.999869 -0.015999 0.002655 0.999934 -0.007958 0.001752 0.999934 -0.007958 0.001752 0.999869 -0.015999 0.002655 0.995582 -0.093888 0.001046 0.995582 -0.093888 0.001046 0.995582 -0.093888 0.001046 0.995582 -0.093888 0.001046 0.999934 -0.007958 0.001752 1.000000 0.000041 0.000424 1.000000 0.000041 0.000424 0.999934 -0.007958 0.001752 </float_array>
+                    <technique_common>
+                        <accessor count="192" offset="0" source="#ID23490288-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23490288-mesh-uv1" name="uv1">
+                    <float_array id="ID23490288-mesh-uv1-array" count="384">0.000000 0.000000 0.000000 0.250000 0.250000 0.250000 0.250000 0.000000 0.000000 0.500000 0.250000 0.500000 0.250000 0.250000 0.000000 0.250000 0.500000 0.500000 0.500000 0.250000 0.250000 0.250000 0.250000 0.500000 0.500000 0.000000 0.250000 0.000000 0.250000 0.250000 0.500000 0.250000 0.000000 1.000000 0.250000 1.000000 0.250000 0.750000 0.000000 0.750000 0.500000 1.000000 0.500000 0.750000 0.250000 0.750000 0.250000 1.000000 0.500000 0.500000 0.250000 0.500000 0.250000 0.750000 0.500000 0.750000 0.000000 0.500000 0.000000 0.750000 0.250000 0.750000 0.250000 0.500000 1.000000 1.000000 1.000000 0.750000 0.750000 0.750000 0.750000 1.000000 1.000000 0.500000 0.750000 0.500000 0.750000 0.750000 1.000000 0.750000 0.500000 0.500000 0.500000 0.750000 0.750000 0.750000 0.750000 0.500000 0.500000 1.000000 0.750000 1.000000 0.750000 0.750000 0.500000 0.750000 1.000000 0.000000 0.750000 0.000000 0.750000 0.250000 1.000000 0.250000 0.500000 0.000000 0.500000 0.250000 0.750000 0.250000 0.750000 0.000000 0.500000 0.500000 0.750000 0.500000 0.750000 0.250000 0.500000 0.250000 1.000000 0.500000 1.000000 0.250000 0.750000 0.250000 0.750000 0.500000 0.000000 0.000000 0.250000 0.000000 0.250000 0.250000 0.000000 0.250000 0.000000 0.500000 0.000000 0.250000 0.250000 0.250000 0.250000 0.500000 0.500000 0.500000 0.250000 0.500000 0.250000 0.250000 0.500000 0.250000 0.500000 0.000000 0.500000 0.250000 0.250000 0.250000 0.250000 0.000000 0.000000 1.000000 0.000000 0.750000 0.250000 0.750000 0.250000 1.000000 0.500000 1.000000 0.250000 1.000000 0.250000 0.750000 0.500000 0.750000 0.500000 0.500000 0.500000 0.750000 0.250000 0.750000 0.250000 0.500000 0.000000 0.500000 0.250000 0.500000 0.250000 0.750000 0.000000 0.750000 1.000000 1.000000 0.750000 1.000000 0.750000 0.750000 1.000000 0.750000 1.000000 0.500000 1.000000 0.750000 0.750000 0.750000 0.750000 0.500000 0.500000 0.500000 0.750000 0.500000 0.750000 0.750000 0.500000 0.750000 0.500000 1.000000 0.500000 0.750000 0.750000 0.750000 0.750000 1.000000 1.000000 0.000000 1.000000 0.250000 0.750000 0.250000 0.750000 0.000000 0.500000 0.000000 0.750000 0.000000 0.750000 0.250000 0.500000 0.250000 0.500000 0.500000 0.500000 0.250000 0.750000 0.250000 0.750000 0.500000 1.000000 0.500000 0.750000 0.500000 0.750000 0.250000 1.000000 0.250000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 1.000000 1.000000 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="192" offset="0" source="#ID23490288-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23490288-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23490288-mesh-verts"/>
+                </vertices>
+                <polygons count="48" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID23490288-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23490288-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23490288-mesh-uv1" set="0"/>
+                    <p>15 3 11 2 12 1 0 0 </p>
+                    <p>12 7 11 6 13 5 9 4 </p>
+                    <p>13 11 11 10 14 9 8 8 </p>
+                    <p>14 15 11 14 15 13 4 12 </p>
+                    <p>19 19 16 18 17 17 1 16 </p>
+                    <p>17 23 16 22 18 21 10 20 </p>
+                    <p>18 27 16 26 13 25 8 24 </p>
+                    <p>13 31 16 30 19 29 9 28 </p>
+                    <p>23 35 20 34 21 33 2 32 </p>
+                    <p>21 39 20 38 22 37 7 36 </p>
+                    <p>22 43 20 42 18 41 8 40 </p>
+                    <p>18 47 20 46 23 45 10 44 </p>
+                    <p>6 51 24 50 5 49 3 48 </p>
+                    <p>5 55 24 54 14 53 4 52 </p>
+                    <p>14 59 24 58 22 57 8 56 </p>
+                    <p>22 63 24 62 6 61 7 60 </p>
+                    <p>26 67 27 66 28 65 25 64 </p>
+                    <p>30 71 27 70 26 69 29 68 </p>
+                    <p>32 75 27 74 30 73 31 72 </p>
+                    <p>28 79 27 78 32 77 33 76 </p>
+                    <p>35 83 36 82 37 81 34 80 </p>
+                    <p>39 87 36 86 35 85 38 84 </p>
+                    <p>30 91 36 90 39 89 31 88 </p>
+                    <p>37 95 36 94 30 93 29 92 </p>
+                    <p>41 99 42 98 43 97 40 96 </p>
+                    <p>45 103 42 102 41 101 44 100 </p>
+                    <p>39 107 42 106 45 105 31 104 </p>
+                    <p>43 111 42 110 39 109 38 108 </p>
+                    <p>47 115 48 114 49 113 46 112 </p>
+                    <p>32 119 48 118 47 117 33 116 </p>
+                    <p>45 123 48 122 32 121 31 120 </p>
+                    <p>49 127 48 126 45 125 44 124 </p>
+                    <p>26 131 25 130 0 129 12 128 </p>
+                    <p>25 135 28 134 15 133 0 132 </p>
+                    <p>29 139 26 138 12 137 9 136 </p>
+                    <p>28 143 33 142 4 141 15 140 </p>
+                    <p>35 147 34 146 1 145 17 144 </p>
+                    <p>34 151 37 150 19 149 1 148 </p>
+                    <p>38 155 35 154 17 153 10 152 </p>
+                    <p>37 159 29 158 9 157 19 156 </p>
+                    <p>41 163 40 162 2 161 21 160 </p>
+                    <p>40 167 43 166 23 165 2 164 </p>
+                    <p>44 171 41 170 21 169 7 168 </p>
+                    <p>43 175 38 174 10 173 23 172 </p>
+                    <p>47 179 46 178 3 177 5 176 </p>
+                    <p>46 183 49 182 6 181 3 180 </p>
+                    <p>33 187 47 186 5 185 4 184 </p>
+                    <p>49 191 44 190 7 189 6 188 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID23492608-mesh" name="ID23492608">
+            <mesh>
+                <source id="ID23492608-mesh-verts" name="verts">
+                    <float_array id="ID23492608-mesh-verts-array" count="132">6.994604 23.238365 2.697368 14.092186 23.238365 2.697368 6.994604 17.964830 2.697368 -10.005396 23.238365 2.397368 -17.407791 23.238365 2.397368 -10.005396 17.738352 2.397368 -17.407791 -0.166258 2.397368 -17.407791 23.238365 2.697368 -17.407791 -0.166258 2.697368 14.092186 -0.166258 2.697368 14.092186 23.238365 2.397368 14.092186 -0.166258 2.397368 -10.005396 23.238365 2.697368 -10.005396 5.333755 2.697368 -10.005396 19.341412 2.697368 2.556995 19.341412 2.697368 6.994604 -0.166258 2.697368 -8.649205 6.341411 2.697368 6.994604 6.341411 2.697368 6.994604 19.341412 2.397368 6.994604 21.618420 2.397368 -2.981804 19.341412 2.397368 -10.005396 -0.166258 2.397368 5.333600 6.341411 2.397368 -10.005396 6.341411 2.397368 6.994604 19.341412 2.697368 -9.101707 6.341411 2.697368 -10.005396 6.341411 2.697368 -10.005396 19.341412 2.397368 6.994604 5.107277 2.397368 6.129625 6.341411 2.397368 6.994604 6.341411 2.397368 -10.005396 19.053093 2.397368 -10.005396 18.923582 2.697368 -10.005396 15.023585 2.397368 6.994604 10.659237 2.397368 6.994604 6.759240 2.697368 6.994604 6.629729 2.397368 -4.736040 19.341412 2.397368 -9.459003 19.341412 2.697368 -4.359008 19.341412 2.397368 6.448211 6.341411 2.697368 1.348216 6.341411 2.397368 1.725248 6.341411 2.397368 </float_array>
+                    <technique_common>
+                        <accessor count="44" offset="0" source="#ID23492608-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23492608-mesh-normal" name="normal">
+                    <float_array id="ID23492608-mesh-normal-array" count="792">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 1.000001 0.000000 0.000000 1.000001 0.000000 0.000000 1.000001 0.000000 0.000000 1.000001 0.000000 0.000000 1.000001 0.000000 0.000000 1.000001 0.000000 0.000000 0.000000 0.982712 -0.000000 0.000000 1.000000 -0.000000 0.000000 0.982712 -0.000000 0.000000 0.982712 -0.000000 0.000000 1.000000 -0.000000 0.000000 0.982712 -0.000000 0.000000 -0.982712 0.000000 0.000000 -1.000000 0.000000 0.000000 -0.982712 0.000000 0.000000 -0.982712 0.000000 0.000000 -1.000000 0.000000 0.000000 -0.982712 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 1.000000 -0.000000 0.000000 0.982712 -0.000000 0.000000 0.982712 -0.000000 0.000000 1.000000 -0.000000 0.000000 1.000000 -0.000000 0.000000 0.982712 -0.000000 0.000000 -1.000000 0.000000 0.000000 -0.982712 0.000000 0.000000 -0.982712 0.000000 0.000000 -1.000000 0.000000 0.000000 -0.982712 0.000000 0.000000 -0.982712 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 0.000000 1.000000 -0.000000 0.000000 0.982712 -0.000000 0.000000 0.982712 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="264" offset="0" source="#ID23492608-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID23492608-mesh-uv1" name="uv1">
+                    <float_array id="ID23492608-mesh-uv1-array" count="528">0.774680 0.774680 0.774680 0.833496 1.000000 1.000000 0.765003 0.765003 0.765003 0.821178 1.000000 1.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.234997 1.000000 0.000000 0.000000 1.000000 0.000000 0.774680 0.000000 1.000000 1.000000 0.000000 1.000000 0.774680 1.000000 0.000000 0.000000 1.000000 0.000000 0.234997 0.000000 1.000000 1.000000 0.234997 1.000000 0.234997 0.833496 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.234997 0.234997 0.633803 0.833496 0.252343 0.833496 0.234997 1.000000 0.774680 0.000000 0.774680 0.278051 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.774680 0.774680 0.000000 0.000000 0.234997 0.234997 0.774680 0.278051 0.774680 0.000000 0.000000 0.000000 0.774680 0.278051 0.225320 0.833496 0.225320 0.930785 0.542032 0.833496 0.765003 0.000000 0.765003 0.278051 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.765003 0.765003 0.000000 0.000000 0.225320 0.225320 0.765003 0.278051 0.765003 0.000000 0.000000 0.000000 0.765003 0.278051 0.774680 1.000000 0.774680 0.833496 0.633803 0.833496 0.234997 1.000000 0.774680 1.000000 0.633803 0.833496 0.263685 0.278051 0.234997 0.234997 0.234997 0.278051 0.278051 0.278051 0.234997 0.234997 0.263685 0.278051 0.765003 0.833496 0.597722 0.833496 0.765003 1.000000 0.542032 0.833496 0.225320 0.930785 0.765003 1.000000 0.225320 0.930785 0.225320 0.833496 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.225320 0.225320 0.252780 0.278051 0.225320 0.225320 0.225320 0.278051 0.278051 0.278051 0.225320 0.225320 0.252780 0.278051 0.667860 0.977822 0.667860 0.876688 0.967859 0.967859 0.967859 0.000000 0.667860 0.667860 0.667860 0.000000 0.967859 0.967859 0.667860 0.667860 0.967859 0.000000 0.032141 1.000000 0.332140 0.332140 0.332140 1.000000 0.032141 1.000000 0.032141 0.894109 0.332140 0.332140 0.332140 0.022178 0.332140 0.332140 0.032141 0.032141 0.309962 0.332140 0.000000 0.332140 0.000000 0.032141 1.000000 0.332140 0.413152 0.332140 0.032141 0.032141 0.032141 0.032141 0.738964 0.032141 1.000000 0.332140 0.967859 0.967859 0.000000 0.667860 0.667860 0.667860 0.967859 0.967859 0.079776 0.967859 0.000000 0.667860 0.690038 0.667860 0.902294 0.667860 1.000000 0.967859 0.967859 0.967859 0.667860 1.000000 0.667860 0.977822 0.967859 1.000000 0.667860 1.000000 0.967859 0.967859 0.032141 0.032141 0.332140 0.000000 0.332140 0.022178 0.032141 0.000000 0.332140 0.000000 0.032141 0.032141 0.000000 0.032141 0.332140 0.332140 0.309962 0.332140 0.032141 0.032141 0.332140 0.332140 0.000000 0.032141 1.000000 0.967859 0.667860 0.667860 0.690038 0.667860 0.967859 0.967859 0.667860 0.667860 1.000000 0.967859 0.774680 0.833496 0.774680 1.000000 1.000000 1.000000 0.765003 0.833496 0.765003 1.000000 1.000000 1.000000 0.765003 0.821178 0.765003 0.833496 1.000000 1.000000 0.234997 1.000000 1.000000 1.000000 0.000000 0.000000 0.774680 0.000000 0.234997 0.000000 1.000000 1.000000 0.774680 1.000000 1.000000 1.000000 0.000000 0.000000 0.234997 0.000000 0.000000 0.000000 1.000000 1.000000 0.234997 0.833496 0.234997 0.815644 0.000000 1.000000 0.252343 0.833496 0.234997 0.833496 0.234997 1.000000 0.774680 0.278051 0.774680 0.295903 1.000000 0.000000 0.278051 0.278051 0.757334 0.278051 0.234997 0.234997 0.765003 0.649010 0.765003 0.765003 1.000000 0.000000 0.765003 0.278051 0.765003 0.649010 1.000000 0.000000 0.278051 0.278051 0.392602 0.278050 0.225320 0.225320 0.597722 0.833496 0.585753 0.833496 0.765003 1.000000 0.225320 0.930785 0.000000 1.000000 0.765003 1.000000 0.225320 0.833496 0.225320 0.462537 0.000000 1.000000 0.667860 0.876688 0.667860 0.667860 0.967859 0.967859 0.032141 0.894109 0.032141 0.032141 0.332140 0.332140 0.413152 0.332140 0.332140 0.332140 0.032141 0.032141 0.738964 0.032141 1.000000 0.032141 1.000000 0.332140 0.079776 0.967859 0.053158 0.967859 0.000000 0.667860 0.902294 0.667860 0.949119 0.667860 1.000000 0.967859 0.234997 0.000000 0.000000 0.000000 1.000000 1.000000 0.234997 0.815644 0.234997 0.278051 0.000000 1.000000 0.774680 0.295903 0.774680 0.774680 1.000000 0.000000 0.757334 0.278051 0.774680 0.278051 0.234997 0.234997 0.404571 0.278050 0.765003 0.278051 0.225320 0.225320 0.392602 0.278050 0.404571 0.278050 0.225320 0.225320 0.585753 0.833496 0.542032 0.833496 0.765003 1.000000 0.225320 0.278051 0.225320 0.225320 0.000000 1.000000 0.225320 0.462537 0.225320 0.290369 0.000000 1.000000 0.053158 0.967859 0.000000 0.967859 0.000000 0.667860 0.949119 0.667860 1.000000 0.667860 1.000000 0.967859 0.234997 0.278051 0.234997 0.234997 0.000000 1.000000 0.225320 0.290369 0.225320 0.278051 0.000000 1.000000 </float_array>
+                    <technique_common>
+                        <accessor count="264" offset="0" source="#ID23492608-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID23492608-mesh-vertices">
+                    <input semantic="POSITION" source="#ID23492608-mesh-verts"/>
+                </vertices>
+                <polygons count="88" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID23492608-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID23492608-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID23492608-mesh-uv1" set="0"/>
+                    <p>1 2 25 1 2 0 </p>
+                    <p>4 5 32 4 5 3 </p>
+                    <p>7 8 4 7 6 6 </p>
+                    <p>6 11 8 10 7 9 </p>
+                    <p>10 14 1 13 9 12 </p>
+                    <p>9 17 11 16 10 15 </p>
+                    <p>7 20 3 19 4 18 </p>
+                    <p>10 23 0 22 1 21 </p>
+                    <p>6 26 16 25 8 24 </p>
+                    <p>9 29 22 28 11 27 </p>
+                    <p>7 32 14 31 12 30 </p>
+                    <p>13 35 7 34 8 33 </p>
+                    <p>12 38 39 37 15 36 </p>
+                    <p>9 41 18 40 16 39 </p>
+                    <p>2 44 9 43 1 42 </p>
+                    <p>18 47 13 46 8 45 </p>
+                    <p>18 50 8 49 16 48 </p>
+                    <p>21 53 20 52 19 51 </p>
+                    <p>6 56 24 55 22 54 </p>
+                    <p>5 59 6 58 4 57 </p>
+                    <p>24 62 29 61 11 60 </p>
+                    <p>24 65 11 64 22 63 </p>
+                    <p>15 68 25 67 0 66 </p>
+                    <p>15 71 0 70 12 69 </p>
+                    <p>27 74 13 73 26 72 </p>
+                    <p>26 77 13 76 17 75 </p>
+                    <p>3 80 38 79 28 78 </p>
+                    <p>3 83 20 82 21 81 </p>
+                    <p>10 86 19 85 20 84 </p>
+                    <p>29 89 10 88 11 87 </p>
+                    <p>31 92 29 91 30 90 </p>
+                    <p>30 95 29 94 23 93 </p>
+                    <p>33 98 5 97 32 96 </p>
+                    <p>24 101 34 100 27 99 </p>
+                    <p>27 104 34 103 33 102 </p>
+                    <p>19 107 35 106 25 105 </p>
+                    <p>35 110 2 109 25 108 </p>
+                    <p>36 113 35 112 37 111 </p>
+                    <p>14 116 28 115 38 114 </p>
+                    <p>39 119 21 118 19 117 </p>
+                    <p>19 122 15 121 39 120 </p>
+                    <p>42 125 24 124 41 123 </p>
+                    <p>24 128 17 127 41 126 </p>
+                    <p>18 131 23 130 43 129 </p>
+                    <p>32 134 28 133 33 132 </p>
+                    <p>33 137 28 136 14 135 </p>
+                    <p>37 140 31 139 36 138 </p>
+                    <p>36 143 31 142 18 141 </p>
+                    <p>38 146 40 145 14 144 </p>
+                    <p>14 149 40 148 39 147 </p>
+                    <p>43 152 42 151 18 150 </p>
+                    <p>18 155 42 154 41 153 </p>
+                    <p>1 158 0 157 25 156 </p>
+                    <p>4 161 3 160 28 159 </p>
+                    <p>4 164 28 163 32 162 </p>
+                    <p>7 167 10 166 3 165 </p>
+                    <p>10 170 12 169 0 168 </p>
+                    <p>6 173 9 172 16 171 </p>
+                    <p>9 176 6 175 22 174 </p>
+                    <p>7 179 33 178 14 177 </p>
+                    <p>12 182 14 181 39 180 </p>
+                    <p>9 185 36 184 18 183 </p>
+                    <p>13 188 41 187 17 186 </p>
+                    <p>6 191 5 190 34 189 </p>
+                    <p>6 194 34 193 24 192 </p>
+                    <p>29 197 43 196 23 195 </p>
+                    <p>3 200 40 199 38 198 </p>
+                    <p>3 203 10 202 20 201 </p>
+                    <p>10 206 35 205 19 204 </p>
+                    <p>33 209 34 208 5 207 </p>
+                    <p>35 212 36 211 2 210 </p>
+                    <p>39 215 40 214 21 213 </p>
+                    <p>19 218 25 217 15 216 </p>
+                    <p>24 221 26 220 17 219 </p>
+                    <p>18 224 30 223 23 222 </p>
+                    <p>10 227 7 226 12 225 </p>
+                    <p>7 230 27 229 33 228 </p>
+                    <p>9 233 2 232 36 231 </p>
+                    <p>13 236 18 235 41 234 </p>
+                    <p>29 239 24 238 42 237 </p>
+                    <p>29 242 42 241 43 240 </p>
+                    <p>3 245 21 244 40 243 </p>
+                    <p>10 248 29 247 31 246 </p>
+                    <p>10 251 37 250 35 249 </p>
+                    <p>24 254 27 253 26 252 </p>
+                    <p>18 257 31 256 30 255 </p>
+                    <p>7 260 13 259 27 258 </p>
+                    <p>10 263 31 262 37 261 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID914416704-mesh" name="ID914416704">
+            <mesh>
+                <source id="ID914416704-mesh-verts" name="verts">
+                    <float_array id="ID914416704-mesh-verts-array" count="24">-15.750000 -0.650000 0.150000 -15.750000 0.650000 0.150000 15.750000 0.650000 0.150000 15.750000 -0.650000 0.150000 15.750000 -0.650000 -0.150000 15.750000 0.650000 -0.150000 -15.750000 0.650000 -0.150000 -15.750000 -0.650000 -0.150000 </float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#ID914416704-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID914416704-mesh-normal" name="normal">
+                    <float_array id="ID914416704-mesh-normal-array" count="72">0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID914416704-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID914416704-mesh-uv1" name="uv1">
+                    <float_array id="ID914416704-mesh-uv1-array" count="48">0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="24" offset="0" source="#ID914416704-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID914416704-mesh-vertices">
+                    <input semantic="POSITION" source="#ID914416704-mesh-verts"/>
+                </vertices>
+                <polygons count="6" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID914416704-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID914416704-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID914416704-mesh-uv1" set="0"/>
+                    <p>3 3 2 2 1 1 0 0 </p>
+                    <p>7 7 6 6 5 5 4 4 </p>
+                    <p>0 11 1 10 6 9 7 8 </p>
+                    <p>4 15 5 14 2 13 3 12 </p>
+                    <p>2 19 5 18 6 17 1 16 </p>
+                    <p>4 23 3 22 0 21 7 20 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+        <geometry id="ID914417488-mesh" name="ID914417488">
+            <mesh>
+                <source id="ID914417488-mesh-verts" name="verts">
+                    <float_array id="ID914417488-mesh-verts-array" count="126">-12.750488 1.975410 -14.796961 -16.382887 1.975410 -16.757299 -16.382887 1.975410 -14.796961 9.484816 1.975409 -2.796973 13.117114 1.975409 -0.836687 13.117114 1.975409 -2.796973 9.484715 2.302971 -14.796961 13.117114 2.302971 -16.757299 13.117114 2.302971 -14.796961 -12.750588 2.302970 -2.796973 -16.382887 2.302970 -0.836687 -16.382887 2.302970 -2.796973 -17.382887 2.302971 -17.296982 -17.382887 2.302970 -0.297006 -17.382887 1.975409 -0.297006 -17.382887 1.975410 -17.296982 14.117114 1.975410 -17.296982 14.117114 1.975409 -0.297006 14.117114 2.302970 -0.297006 14.117114 2.302971 -17.296982 -16.382887 1.975409 -0.297006 -16.382887 1.975409 -2.796973 13.117114 1.975410 -17.296982 -12.124226 1.975410 -14.796961 13.117114 2.302970 -0.297006 13.117114 2.302970 -2.796973 -16.382887 2.302971 -17.296982 8.858453 2.302971 -14.796961 13.117114 1.975410 -14.796961 -16.382887 2.302971 -14.796961 -16.382887 2.302970 -3.846422 -16.382887 1.975409 -4.402462 -16.382887 2.302970 -8.002460 13.117114 2.302971 -9.591473 13.117114 1.975410 -13.191470 13.117114 2.302971 -13.747511 -6.165948 2.302970 -2.796973 -12.436054 1.975409 -2.796973 -3.586049 2.302970 -2.796973 9.170279 1.975410 -14.796961 0.320276 2.302971 -14.796961 2.900177 2.302971 -14.796961 </float_array>
+                    <technique_common>
+                        <accessor count="42" offset="0" source="#ID914417488-mesh-verts-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID914417488-mesh-normal" name="normal">
+                    <float_array id="ID914417488-mesh-normal-array" count="756">0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -0.000000 1.000001 0.000000 -0.000000 1.000000 0.000000 -0.000000 1.000001 0.000000 -0.000000 1.000001 0.000000 -0.000000 1.000000 0.000000 -0.000000 1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000001 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 0.915860 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 0.915860 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -1.000000 -0.000000 -0.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 0.000000 -0.000000 1.000000 0.000000 -0.000000 1.000001 0.000000 -0.000000 1.000001 0.000000 -0.000000 1.000000 0.000000 -0.000000 1.000001 0.000000 -0.000000 1.000001 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000000 0.000000 0.000000 -1.000001 0.000000 0.000000 -1.000001 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 -0.000000 -0.000000 1.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 -0.000000 0.000000 -1.000000 -0.000000 0.000000 -0.915860 -0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.915860 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 1.000000 0.000000 </float_array>
+                    <technique_common>
+                        <accessor count="252" offset="0" source="#ID914417488-mesh-normal-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="ID914417488-mesh-uv1" name="uv1">
+                    <float_array id="ID914417488-mesh-uv1-array" count="504">0.147060 0.147060 0.031746 0.031746 0.031746 0.147060 0.852943 0.852943 0.968254 0.968254 0.968254 0.852943 0.147060 0.147060 0.031746 0.031746 0.031746 0.147060 0.852943 0.852943 0.968254 0.968254 0.968254 0.852943 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.968254 1.000000 0.000000 0.000000 1.000000 0.000000 0.031746 0.000000 1.000000 1.000000 0.000000 1.000000 0.968254 1.000000 0.000000 0.000000 1.000000 0.000000 0.031746 0.000000 1.000000 1.000000 0.031746 1.000000 0.031746 0.852943 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.031746 0.031746 1.000000 1.000000 0.968254 0.968254 0.031746 0.852943 0.031746 1.000000 1.000000 1.000000 0.031746 0.852943 0.968254 0.000000 0.968254 0.147060 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.968254 0.968254 0.000000 0.000000 0.031746 0.031746 0.166942 0.147060 0.031746 1.000000 0.031746 0.852943 0.000000 1.000000 0.000000 0.000000 0.000000 1.000000 0.031746 0.031746 1.000000 1.000000 0.968254 0.968254 0.031746 0.852943 0.031746 1.000000 1.000000 1.000000 0.031746 0.852943 0.968254 0.000000 0.968254 0.147060 1.000000 0.000000 1.000000 1.000000 1.000000 0.000000 0.968254 0.968254 0.000000 0.000000 0.031746 0.031746 0.166942 0.147060 0.166942 0.147060 0.842958 0.147060 0.000000 0.000000 0.968254 0.000000 0.000000 0.000000 0.968254 0.147060 0.166942 0.147060 0.356093 0.147060 0.000000 0.000000 0.968254 0.000000 0.000000 0.000000 0.968254 0.147060 0.566209 0.912546 0.566209 0.566209 0.866209 0.866209 0.866209 0.000000 0.566209 0.566209 0.566209 0.000000 0.866209 0.866209 0.566209 0.566209 0.866209 0.000000 0.133791 1.000000 0.433791 0.433791 0.433791 1.000000 0.133791 0.133791 0.433791 0.433791 0.133791 1.000000 0.433791 0.087454 0.433791 0.433791 0.133791 0.133791 0.346337 0.433791 0.123129 0.433791 0.000000 0.133791 0.133791 0.133791 1.000000 0.433791 0.433791 0.433791 0.133791 0.133791 0.876871 0.133791 1.000000 0.433791 0.866209 0.866209 0.000000 0.566209 0.566209 0.566209 0.866209 0.866209 0.144361 0.866209 0.000000 0.566209 0.653663 0.566209 0.855639 0.566209 1.000000 0.866209 0.866209 0.866209 0.566209 1.000000 0.566209 0.912546 0.866209 1.000000 0.566209 1.000000 0.866209 0.866209 0.133791 0.133791 0.433791 0.000000 0.433791 0.087454 0.133791 0.000000 0.433791 0.000000 0.133791 0.133791 0.000000 0.133791 0.433791 0.433791 0.346337 0.433791 0.133791 0.133791 0.433791 0.433791 0.000000 0.133791 1.000000 0.866209 0.566209 0.566209 0.653663 0.566209 0.866209 0.866209 0.566209 0.566209 1.000000 0.866209 0.968254 1.000000 1.000000 1.000000 0.000000 0.000000 0.031746 0.000000 0.000000 0.000000 1.000000 1.000000 0.968254 1.000000 1.000000 1.000000 0.000000 0.000000 0.031746 0.000000 0.000000 0.000000 1.000000 1.000000 0.031746 0.852943 0.031746 0.758502 0.000000 1.000000 0.852943 0.852943 0.157042 0.852943 0.968254 0.968254 0.968254 0.852943 0.968254 0.968254 1.000000 0.000000 0.968254 0.147060 0.968254 0.241501 1.000000 0.000000 0.031746 0.031746 0.147060 0.147060 0.166942 0.147060 0.031746 0.852943 0.031746 0.453266 0.000000 1.000000 0.852943 0.852943 0.643907 0.852943 0.968254 0.968254 0.968254 0.852943 0.968254 0.968254 1.000000 0.000000 0.968254 0.791211 0.968254 0.852943 1.000000 0.000000 0.968254 0.546737 0.968254 0.791211 1.000000 0.000000 0.968254 0.147060 0.968254 0.546737 1.000000 0.000000 0.031746 0.031746 0.147060 0.147060 0.166942 0.147060 0.842958 0.147060 0.968254 0.147060 0.000000 0.000000 0.437995 0.147060 0.968254 0.147060 0.000000 0.000000 0.356093 0.147060 0.437995 0.147060 0.000000 0.000000 0.123129 0.433791 0.000000 0.433791 0.000000 0.133791 0.876871 0.133791 1.000000 0.133791 1.000000 0.433791 0.123132 0.866209 0.000000 0.866209 0.000000 0.566209 0.144361 0.866209 0.123132 0.866209 0.000000 0.566209 0.876868 0.566209 1.000000 0.566209 1.000000 0.866209 0.855639 0.566209 0.876868 0.566209 1.000000 0.866209 0.031746 0.758502 0.031746 0.147060 0.000000 1.000000 0.157042 0.852943 0.031746 0.852943 0.968254 0.968254 0.968254 0.241501 0.968254 0.852943 1.000000 0.000000 0.031746 0.147060 0.031746 0.031746 0.000000 1.000000 0.031746 0.453266 0.031746 0.208793 0.000000 1.000000 0.643907 0.852943 0.562005 0.852943 0.968254 0.968254 0.031746 0.147060 0.031746 0.031746 0.000000 1.000000 0.031746 0.208793 0.031746 0.147060 0.000000 1.000000 0.562005 0.852943 0.031746 0.852943 0.968254 0.968254 </float_array>
+                    <technique_common>
+                        <accessor count="252" offset="0" source="#ID914417488-mesh-uv1-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="ID914417488-mesh-vertices">
+                    <input semantic="POSITION" source="#ID914417488-mesh-verts"/>
+                </vertices>
+                <polygons count="84" material="mat0">
+                    <input offset="0" semantic="VERTEX" source="#ID914417488-mesh-vertices"/>
+                    <input offset="1" semantic="NORMAL" source="#ID914417488-mesh-normal"/>
+                    <input offset="1" semantic="TEXCOORD" source="#ID914417488-mesh-uv1" set="0"/>
+                    <p>2 2 1 1 0 0 </p>
+                    <p>5 5 4 4 3 3 </p>
+                    <p>8 8 7 7 6 6 </p>
+                    <p>11 11 10 10 9 9 </p>
+                    <p>14 14 13 13 12 12 </p>
+                    <p>12 17 15 16 14 15 </p>
+                    <p>18 20 17 19 16 18 </p>
+                    <p>16 23 19 22 18 21 </p>
+                    <p>14 26 24 25 13 24 </p>
+                    <p>18 29 20 28 17 27 </p>
+                    <p>12 32 22 31 15 30 </p>
+                    <p>16 35 26 34 19 33 </p>
+                    <p>14 38 21 37 20 36 </p>
+                    <p>1 41 14 40 15 39 </p>
+                    <p>21 44 4 43 17 42 </p>
+                    <p>21 47 17 46 20 45 </p>
+                    <p>16 50 28 49 22 48 </p>
+                    <p>4 53 16 52 17 51 </p>
+                    <p>23 56 1 55 15 54 </p>
+                    <p>18 59 25 58 24 57 </p>
+                    <p>7 62 18 61 19 60 </p>
+                    <p>25 65 10 64 13 63 </p>
+                    <p>25 68 13 67 24 66 </p>
+                    <p>12 71 29 70 26 69 </p>
+                    <p>10 74 12 73 13 72 </p>
+                    <p>27 77 7 76 19 75 </p>
+                    <p>15 80 39 79 23 78 </p>
+                    <p>28 83 15 82 22 81 </p>
+                    <p>19 86 41 85 27 84 </p>
+                    <p>29 89 19 88 26 87 </p>
+                    <p>31 92 32 91 30 90 </p>
+                    <p>29 95 32 94 2 93 </p>
+                    <p>2 98 32 97 31 96 </p>
+                    <p>25 101 33 100 5 99 </p>
+                    <p>5 104 33 103 34 102 </p>
+                    <p>34 107 33 106 35 105 </p>
+                    <p>21 110 9 109 36 108 </p>
+                    <p>38 113 25 112 37 111 </p>
+                    <p>25 116 3 115 37 114 </p>
+                    <p>40 119 29 118 39 117 </p>
+                    <p>29 122 23 121 39 120 </p>
+                    <p>28 125 27 124 41 123 </p>
+                    <p>30 128 11 127 31 126 </p>
+                    <p>31 131 11 130 21 129 </p>
+                    <p>35 134 8 133 34 132 </p>
+                    <p>34 137 8 136 28 135 </p>
+                    <p>36 140 38 139 21 138 </p>
+                    <p>21 143 38 142 37 141 </p>
+                    <p>41 146 40 145 28 144 </p>
+                    <p>28 149 40 148 39 147 </p>
+                    <p>14 152 18 151 24 150 </p>
+                    <p>18 155 14 154 20 153 </p>
+                    <p>12 158 16 157 22 156 </p>
+                    <p>16 161 12 160 26 159 </p>
+                    <p>14 164 31 163 21 162 </p>
+                    <p>4 167 37 166 3 165 </p>
+                    <p>16 170 4 169 5 168 </p>
+                    <p>16 173 34 172 28 171 </p>
+                    <p>23 176 0 175 1 174 </p>
+                    <p>18 179 33 178 25 177 </p>
+                    <p>10 182 36 181 9 180 </p>
+                    <p>12 185 10 184 11 183 </p>
+                    <p>12 188 11 187 30 186 </p>
+                    <p>12 191 30 190 32 189 </p>
+                    <p>12 194 32 193 29 192 </p>
+                    <p>27 197 6 196 7 195 </p>
+                    <p>15 200 28 199 39 198 </p>
+                    <p>19 203 29 202 40 201 </p>
+                    <p>19 206 40 205 41 204 </p>
+                    <p>21 209 11 208 9 207 </p>
+                    <p>25 212 5 211 3 210 </p>
+                    <p>29 215 2 214 0 213 </p>
+                    <p>29 218 0 217 23 216 </p>
+                    <p>28 221 8 220 6 219 </p>
+                    <p>28 224 6 223 27 222 </p>
+                    <p>14 227 2 226 31 225 </p>
+                    <p>4 230 21 229 37 228 </p>
+                    <p>16 233 5 232 34 231 </p>
+                    <p>18 236 7 235 8 234 </p>
+                    <p>18 239 35 238 33 237 </p>
+                    <p>10 242 38 241 36 240 </p>
+                    <p>14 245 1 244 2 243 </p>
+                    <p>18 248 8 247 35 246 </p>
+                    <p>10 251 25 250 38 249 </p>
+                </polygons>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="RootNode" name="RootNode">
+            <node id="ID23485616" sid="ID23485616" name="Lid">
+                <matrix sid="matrix">-0.000000 -1.000000 -0.000000 -1.686889 0.000000 -0.000000 1.000000 23.075459 -0.975661 0.000000 -0.000000 9.212093 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23485616-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID23486400" sid="ID23486400" name="Backplate">
+                <matrix sid="matrix">1.000000 0.000000 0.000000 -1.621446 0.000000 1.000000 0.000000 11.553524 0.000000 0.000000 1.000000 15.479241 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23486400-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID23528944" sid="ID23528944" name="Lid_support">
+                <matrix sid="matrix">1.000000 0.000000 0.000000 -1.621446 0.000000 1.000000 0.000000 21.675030 0.000000 0.000000 1.000000 15.198879 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23528944-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                            <instance_material symbol="mat1" target="#material2"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID23972320" sid="ID23972320" name="Screen_rest">
+                <matrix sid="matrix">1.000000 0.000000 0.000000 -1.621445 0.000000 -0.000000 -1.000000 21.675037 0.000000 1.000000 0.000000 5.499073 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23972320-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                            <instance_material symbol="mat1" target="#material2"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID926458032" sid="ID926458032" name="screen_slot_1">
+                <matrix sid="matrix">1.000000 0.000000 0.000000 -1.621445 0.000000 -0.000000 -1.000000 0.493164 0.000000 1.000000 0.000000 0.005232 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID926458032-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                            <instance_material symbol="mat1" target="#material2"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID24754432" sid="ID24754432" name="screen_slot_2">
+                <matrix sid="matrix">1.000000 0.000000 0.000000 -1.621445 0.000000 -0.000000 -1.000000 0.493164 0.000000 1.000000 0.000000 -2.450984 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID24754432-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                            <instance_material symbol="mat1" target="#material2"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID23487184" sid="ID23487184" name="Baseplate">
+                <matrix sid="matrix">-0.000000 1.000000 -0.000000 -1.647359 0.000000 -0.000000 -1.000000 0.000000 -1.000000 -0.000000 0.000000 -0.888223 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23487184-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID23487968" sid="ID23487968" name="Side_Left">
+                <matrix sid="matrix">0.000000 0.000000 1.000000 9.396326 0.999992 -0.000000 0.000000 11.657727 0.000000 0.999992 -0.000000 -0.990038 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23487968-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+                <node id="ID23489888" sid="ID23489888" name="Shell">
+                    <matrix sid="matrix">0.999997 -0.000000 0.000000 -0.000050 0.000000 0.999997 -0.000000 0.000006 0.000000 0.000000 1.000000 -11.473033 0.000000 0.000000 0.000000 1.000000</matrix>
+                </node>
+            </node>
+            <node id="ID23490288" sid="ID23490288" name="Side_Right">
+                <matrix sid="matrix">0.000000 0.000000 1.000000 -22.314478 0.999986 -0.000000 0.000000 11.657402 0.000000 0.999986 -0.000000 -0.990028 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23490288-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material1"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+                <node id="ID23492208" sid="ID23492208" name="Shell_23492208">
+                    <matrix sid="matrix">0.999997 -0.000000 0.000000 -0.000050 0.000000 0.999997 -0.000000 0.000006 0.000000 0.000000 1.000000 -11.473033 0.000000 0.000000 0.000000 1.000000</matrix>
+                </node>
+            </node>
+            <node id="ID23492608" sid="ID23492608" name="Screen">
+                <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.961691 -0.241928 1.010018 0.000000 0.239777 0.970294 -3.609776 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_geometry url="#ID23492608-mesh">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="mat0" target="#material0"/>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="ID914473888" sid="ID914473888" name="Keyboard">
+                <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+                <node id="ID914416704" sid="ID914416704" name="Keyboard_Lip">
+                    <matrix sid="matrix">0.999999 0.000000 0.000000 -1.657804 0.000000 1.372992 0.000000 1.041640 0.000000 0.000000 1.091890 -17.228518 0.000000 0.000000 0.000000 1.000000</matrix>
+                    <instance_geometry url="#ID914416704-mesh">
+                        <bind_material>
+                            <technique_common>
+                                <instance_material symbol="mat0" target="#material0"/>
+                            </technique_common>
+                        </bind_material>
+                    </instance_geometry>
+                </node>
+                <node id="ID914417488" sid="ID914417488" name="Keyboard_cover">
+                    <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.994517 0.104528 1.733531 0.000000 -0.104528 0.994517 -0.142647 0.000000 0.000000 0.000000 1.000000</matrix>
+                    <instance_geometry url="#ID914417488-mesh">
+                        <bind_material>
+                            <technique_common>
+                                <instance_material symbol="mat0" target="#material0"/>
+                            </technique_common>
+                        </bind_material>
+                    </instance_geometry>
+                </node>
+            </node>
+            <node id="ID914419008" sid="ID914419008" name="Camera">
+                <matrix sid="matrix">-0.748694 -0.243929 0.591880 44.275108 0.000000 0.905286 0.407748 38.617901 -0.639445 0.321723 -0.695236 -50.604656 0.000000 0.000000 0.000000 1.000000</matrix>
+                <instance_camera url="#ID914419008-persp"/>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#RootNode"/>
+    </scene>
+</COLLADA>
