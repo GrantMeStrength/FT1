@@ -7,7 +7,7 @@
 
 This is a brief description of how to build a retro-styled terminal, using a USB keyboard and a Raspberry Pi with serial adapter. This is a possible solution if you need a dedicated display for a retro-computer kit (for example, an [Altair-Arduino](https://www.altairduino.com) or [RC2014](https://rc2014.co.uk)).
 
-Rather than 3D print the pieces, I designed them to be cut out of acrylic using a laser cutter. When cemeted together, this produces a solid unit that can withstand an 11-year-old playing Zork.
+Rather than [3D print the pieces](https://blog.hackster.io/a-full-sized-fallout-style-rpi-terminal-e2cbc366ee05), I designed them to be cut out of acrylic using a laser cutter. When cemeted together, this produces a solid unit that can withstand an 11-year-old playing Zork.
 
 If you don't have access to a laser cutter, it's possible to submit plans online and get pieces in return from mail-order companies. If you have a branch of company such as TAP Plastics nearby, go in and have a chat to see what they can do for you. 
 
@@ -72,9 +72,9 @@ Note: Not present in the render is the hole required for the keyboard's USB cabl
 
 * I added an LED and a switch on the front panel. The LED is connected to the Raspberry Pi's 5v and Gnd pins (with a 333 Ohm resistor). The switch is connected to the Pi's "RUN" connection on the board next to the main GPIO pins. When these pins are shorted, the Pi restarts. This can be handy from time to time.
 
-* The other pole of the switch I added to an Ardunio Mega's reset switch. I installed the Mega in the enclosure in order to use it with [FizzTerm](https://github.com/GrantMeStrength/FizzTerm). This allows me to save and load programs, and experiment with writing my own terminal emulation firmware. In this case, the serial port on the outside of the terminal is connected to the Mega, and then from the Mega to the Raspberry Pi.
+* The other pole of the switch I added to an Ardunio Mega's reset switch. I installed the Mega in the enclosure in order to use it with [FizzTerm](https://github.com/GrantMeStrength/FizzTerm). This allows me to save and load programs, and experiment with writing my own terminal emulation firmware. So I have it arranged such that the serial port on the outside of the terminal is connected to the Mega, and then from the Mega to the Raspberry Pi. I could also connect a second serial port to the case, and use the Mega to software switch between different computers.
 
-* There may be space in the enclosure to house a RC2014 as-is. If not, extended all the panels back about 10com will provide enough space to house almost anything you might want to hide back there.
+* There may be space in the enclosure to house a RC2014 as-is. If not, extending all the panels about 10com will provide enough space to house almost anything you might want to hide back there.
 
 * How you arrange the patterns on the sheets of acrylic to be cut is up to you, as it depends on the size the laser cutter supports.
 
@@ -82,7 +82,7 @@ Note: Not present in the render is the hole required for the keyboard's USB cabl
 
 ## Panel files
 
-The Visio files are contain the panels as follows. Please check them before ordering or cutting. 
+The Visio files contain the following panels. Please check them before ordering or cutting! 
 
 Note: The Helix cutter that I used requires a line drawing size of 0.01 pts in order to cut, and anything else to etch.
 
