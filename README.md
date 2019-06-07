@@ -40,6 +40,8 @@ The choice of acrylics is completely up to you. I used 3mm glossy opaque white f
 
 ![](photo3.jpg)
 
+![](photo4.jpg)
+
 The advantage to laser cutting is the ability to quickly make accurate DB9 socket holes, but also means you can engrave labels (both on the back panel and the screen panel). As you can see in the photograph, an extra frame is required around the screen to hide the metal of the LCD and visible glue.
 
 ## Instructions
@@ -62,27 +64,27 @@ Note: Not present in the render is the hole required for the keyboard's USB cabl
 
 ## Hints and tips
 
-* Although the screen is described as having an aspect ratio of 4:3 you should NOT switch this model to the 4:3 mode on the internal on-screen menus. This seems to hang the display and is tricky to disengage (you need to find another video source to allow the on-screen menu to appear)
+* Although the screen is described as having an aspect ratio of 4:3 you should NOT switch this model to the 4:3 mode on the internal on-screen menus. This seems to hang the display and it is tricky to recover (you need to find another video source to let the on-screen menu re-appear)
 
 * The LCD screen has a USB port, and this seems adequate for running a Raspberry Pi zero. No need for an extra power supply!
 
 * The screen has poor viewing angles. Set the brightness, contrast, and saturation to max for the clearest possible view.
 
+* Don't waste your time hooking up composite video instead of HDMI to this particular monitor in an attempt to get better screen sizing. The picture quality is so low you will instantly regret it.
+
 * I added an LED and a switch on the front panel. The LED is connected to the Raspberry Pi's 5v and Gnd pins (with a 333 Ohm resistor). The switch is connected to the Pi's "RUN" connection on the board next to the main GPIO pins. When these pins are shorted, the Pi restarts. This can be handy from time to time.
 
-* The other pole of the switch I added to an Ardunio Mega's reset switch. I installed the Mega in the enclosure in order to use it with [FizzTerm](https://github.com/GrantMeStrength/FizzTerm). This allows me to save and load programs, and experiment with writing my own terminal emulation firmware. So I have it arranged such that the serial port on the outside of the terminal is connected to the Mega, and then from the Mega to the Raspberry Pi. I could also connect a second serial port to the case, and use the Mega to software switch between different computers.
+* The other pole of the switch I added to an Ardunio Mega's reset switch. I installed the Mega alongside the Pi in the enclosure in order to use it with [FizzTerm](https://github.com/GrantMeStrength/FizzTerm). This allows me to save and load programs, and experiment with writing my own terminal emulation firmware. I have it arranged such that the serial port on the outside of the terminal is connected to the Mega, and then from the Mega to the Raspberry Pi. I could also connect a second serial port to the case, and use the Mega to software switch between different external computers.
 
-* There may be space in the enclosure to house a RC2014 as-is. If not, extending all the panels about 10com will provide enough space to house almost anything you might want to hide back there.
+* There may be space in the enclosure to house an RC2014. If not, extending all the panels back about 10com will provide enough space to house almost anything you might want to hide back there.
 
 * How you arrange the patterns on the sheets of acrylic to be cut is up to you, as it depends on the size the laser cutter supports.
 
-* If you don't trust yourself with acrylics, you can definitely make a pretty decent version using foam-board and hot glue. Foam-board is a little thicker than 3mm, so take that into account when cutting the base and other pieces.
+* If you don't trust yourself with cutting acrylic, you can definitely make a pretty decent version using foam-board and hot glue. Foam-board is a little thicker than 3mm, so take that into account when cutting the base and other pieces.
 
 ## Panel files
 
 The Visio files contain the following panels. Please check them before ordering or cutting! 
-
-Note: The Helix cutter that I used requires a line drawing size of 0.01 pts in order to cut, and anything else to etch.
 
 * Panel 1 - suggested color: glossy opaque white, or off-white.
 
@@ -112,3 +114,4 @@ Screen
 
 Screen frame
 
+Note: The Helix cutter that I used requires a line drawing thickness of 0.01 pts in order to cut, and anything else to engrave. So on the screen frame, the little logo is not set to 0.01 pt, only the outline of the panel and screen cut-out. BTW, the hole for the switch is a little too close to the screen cut-out, once my mad hot glue skills have been engaged.
